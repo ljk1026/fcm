@@ -1,0 +1,21 @@
+#项目路径
+server:
+  context-path: /fcm
+  port: 8081
+
+spring:
+    profiles:
+      active: bug
+
+mybatis:
+    type-aliases-package: com.kxtx.fcm.entity
+    mapper-locations: classpath:mapper/*.xml
+mapper:
+    mappers: com.kxtx.mybatis.basemapper.KxtxBaseMapper
+    not-empty: false
+    identity: MYSQL
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql

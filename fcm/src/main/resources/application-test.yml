@@ -1,0 +1,7 @@
+spring:
+    profiles: test
+    datasource:
+      username: fpsuser
+      password: YicMvfpsOk3D
+      url: 'jdbc:mysql://192.168.2.215:3206/kxtx-fps?characterEncoding=utf8&amp;allowMultiQueries=true'
+      driver-class-name: com.mysql.jdbc.Driver

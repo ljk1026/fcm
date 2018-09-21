@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kxtx.fcm.dao.FasClearBillMapper">
+  <resultMap id="BaseResultMap" type="com.kxtx.fcm.entity.FasClearBill">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="settle_bill_no" jdbcType="VARCHAR" property="settleBillNo" />
+    <result column="clear_batch_no" jdbcType="VARCHAR" property="clearBatchNo" />
+    <result column="payer_id" jdbcType="VARCHAR" property="payerId" />
+    <result column="payee_id" jdbcType="VARCHAR" property="payeeId" />
+    <result column="clear_amount" jdbcType="INTEGER" property="clearAmount" />
+    <result column="clear_date" jdbcType="TIMESTAMP" property="clearDate" />
+    <result column="clear_status" jdbcType="TINYINT" property="clearStatus" />
+    <result column="ga_paid_time" jdbcType="TIMESTAMP" property="gaPaidTime" />
+    <result column="ga_apply_no" jdbcType="VARCHAR" property="gaApplyNo" />
+    <result column="is_auto_balance" jdbcType="TINYINT" property="isAutoBalance" />
+    <result column="is_delete" jdbcType="TINYINT" property="isDelete" />
+    <result column="creater_id" jdbcType="VARCHAR" property="createrId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="updater_id" jdbcType="VARCHAR" property="updaterId" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="record_version" jdbcType="INTEGER" property="recordVersion" />
+    <result column="book_date" jdbcType="TIMESTAMP" property="bookDate" />
+  </resultMap>
+</mapper>

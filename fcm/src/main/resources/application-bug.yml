@@ -1,0 +1,13 @@
+spring:
+    profiles: bug
+    datasource:
+      username: fpsuser
+      password: XirBvfpsOt6AG
+      url: 'jdbc:mysql://192.168.2.209:3806/kxtx-fps?characterEncoding=utf8&amp;allowMultiQueries=true'
+      driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level: debug
+server:
+  error:
+    whitelabel:
+      enabled: true
